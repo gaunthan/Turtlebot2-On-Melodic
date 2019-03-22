@@ -3,6 +3,8 @@ Make your [Turtlebot2](https://www.turtlebot.com/turtlebot2/) run on ROS Melodic
 
 ![](https://www.turtlebot.com/assets/images/turtlebot_2_lg.png)
 
+This project referenced [this issue](https://github.com/turtlebot/turtlebot/issues/272). Thanks to the work of [bunchofcoders](https://github.com/bunchofcoders) and [ProfJust](https://github.com/ProfJust).
+
 ## Prerequisites
 
 - ROS Melodic on Ubuntu 18
