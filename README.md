@@ -10,8 +10,7 @@ This project referenced [this issue](https://github.com/turtlebot/turtlebot/issu
 - ROS Melodic on Ubuntu 18
 - Turtlebot2
 
-## Usage
-### Build Turtlebot2 Workspace
+## Build Turtlebot2 Workspace
 Firstly, `cd` to your catkin workspace. 
 
 If you don't have one, `cd` to somewhere you want to create it, and then run the following commands to create one
@@ -25,7 +24,7 @@ Now run the following command inside the root of catkin workspace to build up ru
 
 ```
 
-### Bring Up Turtlebot2
+## Bring Up Turtlebot2
 Now connect a turtlebot2 to the computer. After that, run this command to bring up the Turtlebot2
 ```
 source ./devel/setup.bash
@@ -34,7 +33,7 @@ roslaunch turtlebot_bringup minimal.launch
 
 If nothing wrong, you will hear the Turtlebot2 give out a reminder.
 
-### Test Turtlebot2
+## Test Turtlebot2
 If you want to use keyboard to control it, just run the following command
 ```
 source ./devel/setup.bash
