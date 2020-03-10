@@ -26,7 +26,7 @@ git clone https://github.com/yujinrobot/kobuki_desktop.git
 cd kobuki_desktop/
 rm -r kobuki_qtestsuite
 cd -
-git clone https://github.com/yujinrobot/kobuki.git
+git clone --single-branch --branch melodic https://github.com/yujinrobot/kobuki.git
 mv kobuki/kobuki_description kobuki/kobuki_bumper2pc \
   kobuki/kobuki_node kobuki/kobuki_keyop \
   kobuki/kobuki_safety_controller ./
