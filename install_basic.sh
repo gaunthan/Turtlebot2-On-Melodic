@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# necessary on a fresh bionic install
+sudo apt-get install git -y
+
 mkdir -p src
 cd src
 
@@ -21,3 +24,7 @@ rm -rf yujin_ocs
 
 sudo apt-get install ros-melodic-kobuki-* -y
 sudo apt-get install ros-melodic-ecl-streams -y
+
+# necessary for build and gazebo
+sudo apt-get install ros-melodic-depthimage-to-laserscan -y
+sudo apt-get install ros-melodic-joy -y
