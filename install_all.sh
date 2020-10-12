@@ -3,7 +3,7 @@
 mkdir -p src
 cd src
 
-git clone https://github.com/turtlebot/turtlebot_simulator
+git clone https://github.com/turtlebot/turtlebot_simulator.git
 git clone https://github.com/turtlebot/turtlebot.git
 git clone https://github.com/turtlebot/turtlebot_apps.git
 git clone https://github.com/turtlebot/turtlebot_msgs.git
@@ -37,3 +37,4 @@ rm -rf yujin_ocs
 
 sudo apt-get install ros-melodic-kobuki-* -y
 sudo apt-get install ros-melodic-ecl-streams -y
+sudo apt-get install ros-melodic-yocs-velocity-smoother -y
