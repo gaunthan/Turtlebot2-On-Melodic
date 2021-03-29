@@ -67,3 +67,8 @@ currently:	speed 0.2	turn 1
 ```
 
 Now you should be able to use keyboard to control your Turtlebot2.
+
+## Topic 
+```
+rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist '{linear: {x: 0.3}}'
+```
