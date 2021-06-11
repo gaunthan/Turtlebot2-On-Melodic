@@ -70,5 +70,5 @@ Now you should be able to use keyboard to control your Turtlebot2.
 
 If you want to use ROS Topics to control it, just run the following command
 ```
-rostopic pub -r 10 /mobile_base/commands/velocity geometry_msgs/Twist '{linear: {x: 0.3}, angular: {z: 5.0}}'
+rostopic pub -r 10 /mobile_base/commands/velocity geometry_msgs/Twist '{linear: {x: 0.3}, angular: {z: 1.0}}'
 ```
